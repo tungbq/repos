@@ -52,3 +52,5 @@
         <td><a href="https://github.com/tungbq/Azure-DevOps-Pipeline/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/Azure-DevOps-Pipeline"/></a></td>
     </tr>
 </table>
+
+And full repositories: [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers)
