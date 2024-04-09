@@ -40,9 +40,9 @@ My repositories
         <td><a href="https://github.com/tungbq/aws-lab-with-terraform/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/aws-lab-with-terraform"/></a></td>
     </tr>
     <tr>
-        <td>Github Action</td>
-        <td><a href="https://github.com/tungbq/awesome-workflow">awesome-workflow</a></td>
-        <td style="width:300px">:octocat: Awesome lists about GitHub workflows to automate your development workflow</td>
-        <td><a href="https://github.com/tungbq/awesome-workflow/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/awesome-workflow"/></a></td>
+        <td>K8s</td>
+        <td><a href="https://github.com/tungbq/k8sHub">k8sHub</a></td>
+        <td style="width:300px">Kubernetes deployment samples, practices, and examples</td>
+        <td><a href="https://github.com/tungbq/k8sHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/k8sHub"/></a></td>
     </tr>
 </table>
