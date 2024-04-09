@@ -12,25 +12,25 @@ My repositories
     <tr>
         <td>DevOps</td>
         <td><a href="https://github.com/tungbq/devops-basics">devops-basics</a></td>
-        <td>🚀 Practical and document place for DevOps toolchain</td>
+        <td style="width:400px">  🚀 Practical and document place for DevOps toolchain</td>
         <td>⭐<a href="https://github.com/tungbq/devops-basics/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basics"/></a></td>
     </tr>
     <tr>
         <td>AWS</td>
         <td><a href="https://github.com/tungbq/AWSHub">AWSHub</a></td>
-        <td>📚 Collection of AWS Services documentation and learning resources</td>
+        <td style="width:400px">📚 Collection of AWS Services documentation and learning resources</td>
         <td>⭐<a href="https://github.com/tungbq/AWSHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/AWSHub"/></a></td>
     </tr>
     <tr>
         <td>DevOps</td>
         <td><a href="https://github.com/tungbq/devops-toolkit">devops-toolkit</a></td>
-        <td>Container image for an all-in-one DevOps environment</td>
+        <td style="width:400px">Container image for an all-in-one DevOps environment</td>
         <td>⭐<a href="https://github.com/tungbq/devops-toolkit/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-toolkit"/></a></td>
     </tr>
     <tr>
         <td>DevOps</td>
         <td><a href="https://github.com/tungbq/devops-project">devops-project</a></td>
-        <td>Collection of DevOps projects to level up your DevOps skills</td>
+        <td style="width:400px">Collection of DevOps projects to level up your DevOps skills</td>
         <td>⭐<a href="https://github.com/tungbq/devops-project/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-project"/></a></td>
     </tr>
 </table>
