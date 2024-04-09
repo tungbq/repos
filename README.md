@@ -33,4 +33,10 @@ My repositories
         <td style="width:300px">Collection of DevOps projects to level up your DevOps skills</td>
         <td><a href="https://github.com/tungbq/devops-project/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-project"/></a></td>
     </tr>
+    <tr>
+        <td>Terraform</td>
+        <td><a href="https://github.com/tungbq/aws-lab-with-terraform">aws-lab-with-terraform</a></td>
+        <td style="width:300px">Collection of Terraform code for AWS labs</td>
+        <td><a href="https://github.com/tungbq/aws-lab-with-terraform/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/aws-lab-with-terraform"/></a></td>
+    </tr>
 </table>
