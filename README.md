@@ -7,7 +7,7 @@ My repositories
         <th>Tech</th>
         <th>Repo URL</th>
         <th>Description</th>
-        <th>Stars</th>
+        <th>Stars ⭐</th>
     </tr>
     <tr>
         <td>DevOps</td>
