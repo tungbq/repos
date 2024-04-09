@@ -39,4 +39,10 @@ My repositories
         <td style="width:300px">Collection of Terraform code for AWS labs</td>
         <td><a href="https://github.com/tungbq/aws-lab-with-terraform/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/aws-lab-with-terraform"/></a></td>
     </tr>
+    <tr>
+        <td>Github Action</td>
+        <td><a href="https://github.com/tungbq/awesome-workflow">awesome-workflow</a></td>
+        <td style="width:300px">:octocat: Awesome lists about GitHub workflows to automate your development workflow</td>
+        <td><a href="https://github.com/tungbq/awesome-workflow/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/awesome-workflow"/></a></td>
+    </tr>
 </table>
