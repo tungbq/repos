@@ -45,4 +45,10 @@ My repositories
         <td style="width:300px">Kubernetes deployment samples, practices, and examples</td>
         <td><a href="https://github.com/tungbq/k8sHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/k8sHub"/></a></td>
     </tr>
+    <tr>
+        <td>Azure-DevOps</td>
+        <td><a href="https://github.com/tungbq/Azure-DevOps-Pipeline">Azure-DevOps-Pipeline</a></td>
+        <td style="width:300px">Azure-DevOps tutorials</td>
+        <td><a href="https://github.com/tungbq/Azure-DevOps-Pipeline/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/Azure-DevOps-Pipeline"/></a></td>
+    </tr>
 </table>
