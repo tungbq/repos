@@ -1,6 +1,6 @@
-<h1 align="center">Tung's Repositories Landscape</h1>
+<h1 align="center">Tung's Repositories Landscape 💝</h1>
 
-<p align="center">Welcome to my repositories landcape 👋</p>
+<p align="center">Welcome to my repositories landscape 👋</p>
 
 <table>
     <tr>
