@@ -7,14 +7,14 @@
         <th>Stars</th>
     </tr>
     <tr>
-        <td><a href="https://github.com/tungbq/AWSHub">tungbq/AWSHub</a></td>
-        <td>📚 Collection of AWS Services documentation and learning resources ☁️</td>
-        <td><a href="https://github.com/tungbq/AWSHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/AWSHub"/></a></td>
-    </tr>
-    <tr>
         <td><a href="https://github.com/tungbq/devops-basics">tungbq/devops-basics</a></td>
         <td>🚀 Practical and document place for DevOps toolchain</td>
         <td><a href="https://github.com/tungbq/devops-basics/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basics"/></a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/tungbq/AWSHub">tungbq/AWSHub</a></td>
+        <td>📚 Collection of AWS Services documentation and learning resources ☁️</td>
+        <td><a href="https://github.com/tungbq/AWSHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/AWSHub"/></a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/tungbq/devops-toolkit">tungbq/devops-toolkit</a></td>
@@ -50,6 +50,11 @@
         <td><a href="https://github.com/tungbq/find-github-issue">tungbq/find-github-issue</a></td>
         <td>Collection of GitHub filters for open-source contributors</td>
         <td><a href="https://github.com/tungbq/find-github-issue/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/find-github-issue"/></a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/tungbq/challenges">tungbq/challenges</a></td>
+        <td>Leetcode challenges</td>
+        <td><a href="https://github.com/tungbq/challenges/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/challenges"/></a></td>
     </tr>
 </table>
 
