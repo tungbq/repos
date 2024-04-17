@@ -6,7 +6,7 @@ generate_table_row() {
     local description="$2"
 
     echo "    <tr>" >> README.md
-    echo "        <td><a href=\"https://github.com/$repo_name\">$repo_name</a></td>" >> README.md
+    echo "        <td><a href=\"https://github.com/$repo_name\">$(basename $repo_name)</a></td>" >> README.md
     echo "        <td>$description</td>" >> README.md
     echo "        <td><a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a></td>" >> README.md
     echo "    </tr>" >> README.md
