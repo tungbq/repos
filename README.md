@@ -53,6 +53,5 @@
 - URL: <a href="https://github.com/tungbq/repos">tungbq/repos</a>
 - Description: 🚀 My repositories landscape
 - <a href="https://github.com/tungbq/repos/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/repos"/></a>
-</table>
 
 For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers).
