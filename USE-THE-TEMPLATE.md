@@ -46,6 +46,8 @@ Working on repo: tungbq/terraform-sample-project, with index: 12
 Working on repo: tungbq/repos, with index: 13
 ```
 
+Now check the README.md and you would find your repository landscape content
+
 ## Configure and use the template
 
 Below steps help you create and configure your own landscape repository
