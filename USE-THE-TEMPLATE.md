@@ -68,12 +68,12 @@ Below steps help you create and configure your own landscape repository
 
 There is a CI workflow to auto generate the content and open the new Pull request for your repository landscape, so setup PAT is required
 
-1. Generate the token
+#### 2.1. Generate the token
 
 - Click on your profile on the top right corner > `Settings` > `Developer Settings`, or visit: https://github.com/settings/tokens
 - Select `Generate new token`
 
-  ![create-repo](./assets/create-repo.png)
+  ![pat-generate](./assets/pat-generate.png)
 
 - Set the expiration day, my personal choice 90days. You can set to whatever you want
 - Select scopes `repo` only for better security
@@ -81,9 +81,9 @@ There is a CI workflow to auto generate the content and open the new Pull reques
   ![pat-setup](./assets/pat-setup.png)
 
 - Then click `Generate token`
-- Finally copy the newly created token for later use
+- Finally copy or note the newly created token somewhere for later use
 
-2. Create the PAT token variable
+#### 2.2. Create the PAT token variable
 
 - Go to Actions secrets and variables
 - Visit: https://github.com/tungbq/repos-landscape/settings/secrets/actions
@@ -110,7 +110,7 @@ Now we are ready to trigger the CI workflow to update the repo landscape
   ![action-run](./assets/action-run.png)
 
 - The CI pipeline will read the repository list, then generate your new readme content.
-- Then it checks and creates a Pull request to propose the new repository landscape content.
+- Then it checks and creates a Pull Request to propose the new repository landscape content.
 
 ### 5. Review and merge the PR
 
