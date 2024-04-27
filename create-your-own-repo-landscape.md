@@ -19,7 +19,7 @@ This repository template provides some features that help you create your repo l
 
 ## Quick start 📖
 
-If you want to create the
+This is optional; you can skip this section and jump into `Configure and use the template 📘` to create your own repo.
 If you want to generate the content locally, update the `repository_list.txt` and run this script:
 
 ```bash
