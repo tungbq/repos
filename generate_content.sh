@@ -20,7 +20,7 @@ generate_repo_list() {
 
 # Start README file with header
 echo "<h1 align=\"center\">Repositories Landscape 💎</h1>" >README.md
-echo "" >README.md
+echo "" >>README.md
 echo "Welcome to my repositories landscape 👋 If you want to create your own repository landscape similar to this, please follow this [guide](./USE-THE-TEMPLATE.md)" >>README.md
 ## Seperator to create following list
 echo "" >>README.md
