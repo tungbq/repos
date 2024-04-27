@@ -34,6 +34,8 @@ while IFS= read -r repo_name; do
 
     # Make the API request to get repository information
     response=$(curl -s "https://api.github.com/repos/$repo_name")
+    echo "Response:"
+    echo "$response"
 
     # Extract the description from the response using jq (ensure jq is installed)
     description=$(echo "$response" | jq -r '.description')
