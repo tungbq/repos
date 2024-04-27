@@ -5,24 +5,29 @@ generate_table_row() {
     local repo_name="$1"
     local description="$2"
 
-    echo "    <tr>" >> README.md
-    echo "        <td><a href=\"https://github.com/$repo_name\">$(basename $repo_name)</a></td>" >> README.md
-    echo "        <td>$description</td>" >> README.md
-    echo "        <td><a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a></td>" >> README.md
-    echo "    </tr>" >> README.md
+    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$(basename $repo_name)</a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a>"
+
+    echo "- $repo_hyperlink $stars: $description" >> README.md
+    # echo "    <tr>" >> README.md
+    # echo "        <td><a href=\"https://github.com/$repo_name\">$(basename $repo_name)</a></td>" >> README.md
+    # echo "        <td>$description</td>" >> README.md
+    # echo "        <td><a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a></td>" >> README.md
+    # echo "    </tr>" >> README.md
 }
 
 # Start README file with header
 echo "<h1 align=\"center\">Tung's Repositories Landscape 💝</h1>" > README.md
 echo "<p align=\"center\">Welcome to my repositories landscape 👋</p>" >> README.md
+echo "" >> README.md
 
 # Start HTML table
-echo "<table>" >> README.md
-echo "    <tr>" >> README.md
-echo "        <th>Repo URL</th>" >> README.md
-echo "        <th>Description</th>" >> README.md
-echo "        <th>Stars</th>" >> README.md
-echo "    </tr>" >> README.md
+# echo "<table>" >> README.md
+# echo "    <tr>" >> README.md
+# echo "        <th>Repo URL</th>" >> README.md
+# echo "        <th>Description</th>" >> README.md
+# echo "        <th>Stars</th>" >> README.md
+# echo "    </tr>" >> README.md
 
 # Loop through each repository URL
 while IFS= read -r repo_name; do
