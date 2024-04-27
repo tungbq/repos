@@ -86,8 +86,8 @@ There is a CI workflow to automatically generate content and open a new Pull Req
 
 #### 2.2. Create the PAT token variable
 
-- Go to Actions secrets and variables.
-- Visit: [https://github.com/tungbq/repos-landscape/settings/secrets/actions](https://github.com/tungbq/repos-landscape/settings/secrets/actions).
+- Go to `Settings` > `Secrets and variables` > `Actions`
+- Visit: https://github.com/<your_username>/<your_new_reponame>/settings/secrets/actions
 - In the `New repository secrets` section, input the PAT as the name and the token.
 
   ![add-secret](./assets/add-secret.png)
