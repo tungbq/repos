@@ -19,6 +19,7 @@ This repository template provides some features that help you create your repo l
 
 ## Quick start 📖
 
+If you want to create the
 If you want to generate the content locally, update the `repository_list.txt` and run this script:
 
 ```bash
@@ -100,7 +101,16 @@ Now we are ready to trigger the CI workflow to update the repo landscape.
 
 ### 3. Update your repository list
 
-- Add your repository list to the file `repository_list.txt` in your repository and merge it into the `main` branch.
+- Add your repository list to the file `repository_list.txt` in your repository and merge it into the `main` branch, for example:
+
+```
+tungbq/devops-basics
+tungbq/AWSHub
+tungbq/devops-toolkit
+tungbq/devops-project
+tungbq/aws-lab-with-terraform
+tungbq/awesome-workflow
+```
 
 ### 4. Trigger the CI pipeline
 
@@ -125,7 +135,7 @@ Congratulations 🎉, you've successfully created your own repo landscape! Now c
 ## Advance CI configuration (Optional)
 
 - In the previous section, we triggered the CI pipeline to run on a manual event. You could improve that by changing the trigger event to run on a timer basis. For example, once a week or once a month. This would help us regularly check and update the landscape, keeping it up to date.
-- To do so, add your desired cron trigger to repos/.github/workflows/generate_content.yaml`
+- To do so, add your desired cron trigger to `repos/.github/workflows/generate_content.yaml`
 
 ```yaml
 on:
