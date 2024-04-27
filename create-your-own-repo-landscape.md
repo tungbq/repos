@@ -91,7 +91,7 @@ There is a CI workflow to automatically generate content and open a new Pull Req
 - Visit: https://github.com/<your_username>/<your_new_reponame>/settings/secrets/actions
 - In the `New repository secrets` section, input the PAT as the name and the token.
 
-  ![add-secret](./assets/add-secret.png)
+  ![secret-action-create](./assets/secret-action-create.png)
 
 - Once completed, you will see a result similar to this:
 
