@@ -1,6 +1,7 @@
 <h1 align="center">Repositories Landscape 💎</h1>
+<p align="center">Welcome to my repositories landscape 👋</p>
 
-Welcome to my repositories landscape 👋 If you want to create your own repository landscape similar to this, please follow this [guide](./USE-THE-TEMPLATE.md)
+If you want to create your own repository landscape similar to this, please follow this [guide](./USE-THE-TEMPLATE.md) 📖
 
 ## 1. devops-basics
 - URL: <a href="https://github.com/tungbq/devops-basics">tungbq/devops-basics</a>
