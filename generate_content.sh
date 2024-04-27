@@ -43,7 +43,5 @@ while IFS= read -r repo_name; do
     ((index++))
 done <"$1"
 
-# End HTML table
-echo "</table>" >>README.md
 echo "" >>README.md
 echo "For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
