@@ -6,10 +6,13 @@ generate_repo_list() {
     local repo_name="$2"
     local description="$3"
 
-    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$(basename $repo_name)</a>"
+    # Only get base repo name, execlude the username
+    repo_base_name=$(basename $repo_name)
+
+    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
     local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a>"
 
-    echo "## $index. $repo_name" >>README.md
+    echo "## $index. $repo_base_name" >>README.md
     echo "- URL: $repo_hyperlink" >>README.md
     echo "- Description: $description" >>README.md
     echo "- $stars" >>README.md
@@ -35,7 +38,7 @@ while IFS= read -r repo_name; do
 
     # Generate table row with incremental index
     generate_repo_list "$index" "$repo_name" "$description"
-    
+
     # Increment index
     ((index++))
 done <"$1"
