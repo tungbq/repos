@@ -8,3 +8,6 @@ tungbq/k8sHub
 tungbq/Azure-DevOps-Pipeline
 tungbq/find-github-issue
 tungbq/challenges
+tungbq/devops-dockerfiles
+tungbq/terraform-sample-project
+tungbq/repos
