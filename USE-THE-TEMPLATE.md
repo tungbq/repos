@@ -9,8 +9,8 @@ This template provides some features that help you create your repo landscape co
 - Supports defining the list of repositories to be shown in the landscape, file `repository_list.txt`.
 - Automated script to generate content from the `repository_list.txt`.
 - A CI pipeline to generate new repository landscape content:
-- Triggers the automated generation script.
-- Creates a pull request to propose the new content.
+  - Triggers the automated generation script.
+  - Creates a pull request to propose the new content.
 - The repository landscape format provides:
   - Indexing with repo name title
   - Repo URL
