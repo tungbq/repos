@@ -1,7 +1,7 @@
 <h1 align="center">Repositories Landscape 💎</h1>
 <p align="center">Welcome to my repositories landscape 👋</p>
 
-If you want to create your own repository landscape similar to this, please follow this [guide](./USE-THE-TEMPLATE.md) 📖
+If you want to create your own repository landscape similar to this, please follow this [guide](./create-your-own-repo-landscape.md) 📖
 
 ## 1. devops-basics
 - URL: <a href="https://github.com/tungbq/devops-basics">tungbq/devops-basics</a>
@@ -37,23 +37,23 @@ If you want to create your own repository landscape similar to this, please foll
 - <a href="https://github.com/tungbq/Azure-DevOps-Pipeline/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/Azure-DevOps-Pipeline"/></a>
 ## 9. find-github-issue
 - URL: <a href="https://github.com/tungbq/find-github-issue">tungbq/find-github-issue</a>
-- Description: Collection of GitHub filters for open-source contributors
+- Description: null
 - <a href="https://github.com/tungbq/find-github-issue/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/find-github-issue"/></a>
 ## 10. challenges
 - URL: <a href="https://github.com/tungbq/challenges">tungbq/challenges</a>
-- Description: Leetcode challenges
+- Description: null
 - <a href="https://github.com/tungbq/challenges/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/challenges"/></a>
 ## 11. devops-dockerfiles
 - URL: <a href="https://github.com/tungbq/devops-dockerfiles">tungbq/devops-dockerfiles</a>
-- Description: Dockerfiles collection for DevOps tools
+- Description: null
 - <a href="https://github.com/tungbq/devops-dockerfiles/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-dockerfiles"/></a>
 ## 12. terraform-sample-project
 - URL: <a href="https://github.com/tungbq/terraform-sample-project">tungbq/terraform-sample-project</a>
-- Description: Sample Terraform project with best practice
+- Description: null
 - <a href="https://github.com/tungbq/terraform-sample-project/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/terraform-sample-project"/></a>
 ## 13. repos
 - URL: <a href="https://github.com/tungbq/repos">tungbq/repos</a>
-- Description: 🚀 My repositories landscape
+- Description: null
 - <a href="https://github.com/tungbq/repos/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/repos"/></a>
 
 For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers).

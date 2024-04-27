@@ -1,4 +1,4 @@
-# Use the template
+# Create your repo landscape
 
 This instruction will describe the feature and guide you how to use this repo template to create your own repos landscape
 
