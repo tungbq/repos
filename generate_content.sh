@@ -21,6 +21,8 @@ generate_repo_list() {
 # Start README file with header
 echo "<h1 align=\"center\">Repositories Landscape 💎</h1>" >README.md
 echo "<p align=\"center\">Welcome to my repositories landscape 👋</p>" >>README.md
+echo "" >>README.md
+echo "If you want to create your own repository landscape similar to this, please follow this [**guide**](./create-your-own-repo-landscape.md) 📖" >>README.md
 ## Seperator to create following list
 echo "" >>README.md
 
@@ -32,6 +34,8 @@ while IFS= read -r repo_name; do
 
     # Make the API request to get repository information
     response=$(curl -s "https://api.github.com/repos/$repo_name")
+    echo "Response:"
+    echo "$response"
 
     # Extract the description from the response using jq (ensure jq is installed)
     description=$(echo "$response" | jq -r '.description')
