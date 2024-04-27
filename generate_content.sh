@@ -22,7 +22,7 @@ generate_repo_list() {
 echo "<h1 align=\"center\">Repositories Landscape 💎</h1>" >README.md
 echo "<p align=\"center\">Welcome to my repositories landscape 👋</p>" >>README.md
 echo "" >>README.md
-echo "If you want to create your own repository landscape similar to this, please follow this [guide](./create-your-own-repo-landscape.md) 📖" >>README.md
+echo "If you want to create your own repository landscape similar to this, please follow this [**guide**](./create-your-own-repo-landscape.md) 📖" >>README.md
 ## Seperator to create following list
 echo "" >>README.md
 

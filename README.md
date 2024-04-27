@@ -1,39 +1,39 @@
 <h1 align="center">Repositories Landscape 💎</h1>
 <p align="center">Welcome to my repositories landscape 👋</p>
 
-If you want to create your own repository landscape similar to this, please follow this [guide](./create-your-own-repo-landscape.md) 📖
+If you want to create your own repository landscape similar to this, please follow this [**guide**](./create-your-own-repo-landscape.md) 📖
 
 ## 1. devops-basics
 - URL: <a href="https://github.com/tungbq/devops-basics">tungbq/devops-basics</a>
-- Description: 🚀 Practical and document place for DevOps toolchain
+- Description: null
 - <a href="https://github.com/tungbq/devops-basics/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basics"/></a>
 ## 2. AWSHub
 - URL: <a href="https://github.com/tungbq/AWSHub">tungbq/AWSHub</a>
-- Description: 📚 Collection of AWS Services documentation and learning resources ☁️
+- Description: null
 - <a href="https://github.com/tungbq/AWSHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/AWSHub"/></a>
 ## 3. devops-toolkit
 - URL: <a href="https://github.com/tungbq/devops-toolkit">tungbq/devops-toolkit</a>
-- Description: 🐳 Container image for an all-in-one DevOps environment with popular tools like Ansible, Terraform, kubectl, Helm, AWS CLI, Azure CLI, Git, Python and more.
+- Description: null
 - <a href="https://github.com/tungbq/devops-toolkit/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-toolkit"/></a>
 ## 4. devops-project
 - URL: <a href="https://github.com/tungbq/devops-project">tungbq/devops-project</a>
-- Description: Collection of DevOps projects to level up your DevOps skills
+- Description: null
 - <a href="https://github.com/tungbq/devops-project/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-project"/></a>
 ## 5. aws-lab-with-terraform
 - URL: <a href="https://github.com/tungbq/aws-lab-with-terraform">tungbq/aws-lab-with-terraform</a>
-- Description: Collection of Terraform code for AWS labs
+- Description: null
 - <a href="https://github.com/tungbq/aws-lab-with-terraform/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/aws-lab-with-terraform"/></a>
 ## 6. awesome-workflow
 - URL: <a href="https://github.com/tungbq/awesome-workflow">tungbq/awesome-workflow</a>
-- Description: :octocat: Awesome lists about GitHub workflows to automate your development workflow
+- Description: null
 - <a href="https://github.com/tungbq/awesome-workflow/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/awesome-workflow"/></a>
 ## 7. k8sHub
 - URL: <a href="https://github.com/tungbq/k8sHub">tungbq/k8sHub</a>
-- Description: Kubernetes deployment samples, practices, and examples
+- Description: null
 - <a href="https://github.com/tungbq/k8sHub/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/k8sHub"/></a>
 ## 8. Azure-DevOps-Pipeline
 - URL: <a href="https://github.com/tungbq/Azure-DevOps-Pipeline">tungbq/Azure-DevOps-Pipeline</a>
-- Description: Azure-DevOps tutorials
+- Description: null
 - <a href="https://github.com/tungbq/Azure-DevOps-Pipeline/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/Azure-DevOps-Pipeline"/></a>
 ## 9. find-github-issue
 - URL: <a href="https://github.com/tungbq/find-github-issue">tungbq/find-github-issue</a>
