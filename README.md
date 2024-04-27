@@ -49,6 +49,10 @@
 - URL: <a href="https://github.com/tungbq/terraform-sample-project">tungbq/terraform-sample-project</a>
 - Description: Sample Terraform project with best practice
 - <a href="https://github.com/tungbq/terraform-sample-project/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/terraform-sample-project"/></a>
+## 13. repos
+- URL: <a href="https://github.com/tungbq/repos">tungbq/repos</a>
+- Description: 🚀 My repositories landscape
+- <a href="https://github.com/tungbq/repos/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/repos"/></a>
 </table>
 
 For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers).
