@@ -52,6 +52,10 @@ Now check the README.md and you would find your repository landscape content
 ## Configure and use the template 📘
 
 Below are the steps to help you create and configure your own landscape repository.
+<br>
+In short we only need to do 4 major steps: `Create new repo from template` > `Set up PAT` > `Update repository list` > `Merge the automated PR`.
+<br>
+Let's dive into the detailed as below:
 
 ### 1. Create a new repo from the template
 
