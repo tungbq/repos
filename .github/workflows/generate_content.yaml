@@ -6,7 +6,7 @@ on:
     branches: main
     paths:
       - 'generate_content.sh'
-      - 'repository_list.txt*'
+      - 'repository_list.txt'
       - '.github/workflows/*'
   ## Manual trigger
   workflow_dispatch:
