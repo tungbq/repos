@@ -1,5 +1,13 @@
 #!/bin/bash
 
+REPOSITORY_LIST=$1
+
+if [ -z $REPOSITORY_LIST ]; then
+    echo "ERROR: epository list is empty!"
+    echo "Usage: $0 <repository_list_path>"
+    exit 1
+fi
+
 # Function to generate table rows
 generate_repo_list() {
     local index="$1"
@@ -45,7 +53,7 @@ while IFS= read -r repo_name; do
 
     # Increment index
     ((index++))
-done <"$1"
+done <"$REPOSITORY_LIST"
 
 echo "" >>README.md
 echo "For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
