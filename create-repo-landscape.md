@@ -121,6 +121,9 @@ tungbq/awesome-workflow
 #### Automatically trigger on merge event to main
 
 - Once the `repository_list.txt` is merged into the `main` branch, the CI pipeline Update content will be triggered automatically.
+
+  ![ci-main-trigger](./assets/ci-main-trigger.png)
+
 - The CI pipeline will read the repository list and generate your new `README.md` content.
 - Then, it will check and create a Pull Request to propose the new repository landscape content.
 
