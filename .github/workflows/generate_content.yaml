@@ -1,9 +1,18 @@
 name: Update Content
 
 on:
+  ## Trigger on merge event to main brnach
+  push:
+    branches: main
+    paths:
+      - 'generate_content.sh'
+      - 'repository_list.txt*'
+      - '.github/workflows/*'
+  ## Manual trigger
+  workflow_dispatch:
+  ## Optional: Schedule trigger to update the content regularly
   # schedule:
   #   - cron: '0 0 * * 6' # Run every Saturday at midnight
-  workflow_dispatch:
 
 jobs:
   update-content:

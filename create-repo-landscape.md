@@ -52,6 +52,10 @@ Now check the README.md and you would find your repository landscape content
 ## Configure and use the template 📘
 
 Below are the steps to help you create and configure your own landscape repository.
+<br>
+In short we only need to do 4 major steps: `Create new repo from template` > `Set up PAT` > `Update repository list` > `Merge the automated PR`.
+<br>
+Let's dive into the detailed as below:
 
 ### 1. Create a new repo from the template
 
@@ -114,15 +118,21 @@ tungbq/awesome-workflow
 
 ### 4. Trigger the CI pipeline
 
-- Go to Actions and select `Update content`.
+#### Automatically trigger on merge event to main
+
+- Once the `repository_list.txt` is merged into the `main` branch, the CI pipeline Update content will be triggered automatically.
+- The CI pipeline will read the repository list and generate your new `README.md` content.
+- Then, it will check and create a Pull Request to propose the new repository landscape content.
+
+  ![pr-automated](./assets/pr-automated.png)
+
+#### Manual trigger (Optional)
+
+- You can also trigger that CI at any moment you want.
+- Go to Actions and select Update content.
 - Select "Run workflow" to trigger the CI:
 
   ![action-run](./assets/action-run.png)
-
-- The CI pipeline will read the repository list and generate your new readme content.
-- Then it checks and creates a Pull Request to propose the new repository landscape content.
-
-  ![pr-automated](./assets/pr-automated.png)
 
 ### 5. Review and merge the PR
 
@@ -134,7 +144,7 @@ Congratulations 🎉, you've successfully created your own repo landscape! Now c
 
 ## Advance CI configuration (Optional)
 
-- In the previous section, we triggered the CI pipeline to run on a manual event. You could improve that by changing the trigger event to run on a timer basis. For example, once a week or once a month. This would help us regularly check and update the landscape, keeping it up to date.
+- In the previous section, we triggered the CI pipeline to run on a merge event to `main` branch or manual event. You could improve that by changing the trigger event to run on a timer basis. For example, once a week or once a month. This would help us regularly check and update the landscape, keeping it up to date.
 - To do so, add your desired cron trigger to `repos/.github/workflows/generate_content.yaml`
 
 ```yaml
@@ -142,6 +152,7 @@ on:
   schedule:
     - cron: '0 0 * * 6' # Run every Saturday at midnight
   workflow_dispatch:
+  # other events as needed
 ```
 
 - Check https://crontab.guru/ for the CRON syntax
