@@ -55,5 +55,9 @@ If you want to create your own repository landscape similar to this, please foll
 - URL: <a href="https://github.com/tungbq/repos">tungbq/repos</a>
 - Description: 🚀 My repositories landscape
 - <a href="https://github.com/tungbq/repos/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/repos"/></a>
+## 14. python-examples
+- URL: <a href="https://github.com/tungbq/python-examples">tungbq/python-examples</a>
+- Description: Set of Python examples, practice exercises, and learning resources
+- <a href="https://github.com/tungbq/python-examples/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/python-examples"/></a>
 
 For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers).
