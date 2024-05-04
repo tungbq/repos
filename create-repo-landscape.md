@@ -53,7 +53,7 @@ Now check the README.md and you would find your repository landscape content
 
 Below are the steps to help you create and configure your own landscape repository.
 <br>
-In short we only need to do 4 major steps: `Create new repo from template` > `Set up PAT` > `Update repository list` > `Merge the automated PR`.
+In short we only need to do 4 major steps: `Create new repo from template` > `Set up GITHUB_TOKEN` > `Update repository list` > `Merge the automated PR`.
 <br>
 Let's dive into the detailed as below:
 
@@ -70,36 +70,16 @@ Let's dive into the detailed as below:
 
 - Wait for a few seconds, and your repository will be created.
 
-### 2. Configure Personal Access Token (PAT) for the new repo
+### 2. Configure `GITHUB_TOKEN` for the new repo
 
-There is a CI workflow to automatically generate content and open a new Pull Request for your repository landscape, so setting up a PAT is required.
+There is a CI workflow to automatically generate content and open a new Pull Request for your repository landscape, so setting up `GITHUB_TOKEN` permission is required.
+<br>
+Goto: https://github.com/YOUR_USERNAME/YOUR_REPO/settings/actions (Repo > Setting > Action > General), in the `Workflow permission` section, enable following options:
 
-#### 2.1. Generate the token
+- Read and write permissions
+- Allow GitHub Actions to create and approve pull requests
 
-- Click on your profile in the top right corner > `Settings` > `Developer settings`, or visit: [https://github.com/settings/tokens](https://github.com/settings/tokens).
-- Select `Generate new token`.
-
-  ![pat-generate](./assets/pat-generate.png)
-
-- Set the expiration date (my personal choice is 90 days; you can set it to whatever you want).
-- Select only the `repo` scope for better security.
-
-  ![pat-setup](./assets/pat-setup.png)
-
-- Then click `Generate token`.
-- Finally, copy or note the newly created token somewhere for later use.
-
-#### 2.2. Create the PAT token variable
-
-- Go to `Settings` > `Secrets and variables` > `Actions`
-- Visit: https://github.com/<your_username>/<your_new_reponame>/settings/secrets/actions
-- In the `New repository secrets` section, input the PAT as the name and the token.
-
-  ![secret-action-create](./assets/secret-action-create.png)
-
-- Once completed, you will see a result similar to this:
-
-  ![secret-completed](./assets/secret-completed.png)
+  ![gh-token-in-repo](./assets/gh-token-in-repo.png)
 
 Now we are ready to trigger the CI workflow to update the repo landscape.
 
