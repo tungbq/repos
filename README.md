@@ -37,7 +37,7 @@ If you want to create your own repository landscape similar to this, please foll
 - <a href="https://github.com/tungbq/Azure-DevOps-Pipeline/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/Azure-DevOps-Pipeline"/></a>
 ## 9. find-github-issue
 - URL: <a href="https://github.com/tungbq/find-github-issue">tungbq/find-github-issue</a>
-- Description: Collection of GitHub filters for open-source contributors
+- Description: :octocat: Collection of GitHub filters for open-source contributors
 - <a href="https://github.com/tungbq/find-github-issue/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/find-github-issue"/></a>
 ## 10. challenges
 - URL: <a href="https://github.com/tungbq/challenges">tungbq/challenges</a>
