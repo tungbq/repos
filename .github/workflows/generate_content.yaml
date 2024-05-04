@@ -29,6 +29,9 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
+          # Goto: Repo > Setting > Action > General > Workflow permission, enable following options:
+            # Read and write permissions
+            # Allow GitHub Actions to create and approve pull requests
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'Update table of content'
           committer: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
