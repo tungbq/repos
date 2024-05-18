@@ -2,9 +2,12 @@
 
 REPOSITORY_LIST=$1
 
-if [ -z $REPOSITORY_LIST ]; then
+# User input, or will be automated detected via CI
+GITHUB_OWNER=$2
+
+if [ -z $REPOSITORY_LIST || ]; then
     echo "ERROR: epository list is empty!"
-    echo "Usage: $0 <repository_list_path>"
+    echo "Usage: $0 <repository_list_path> <github_owner>"
     exit 1
 fi
 
@@ -56,4 +59,4 @@ while IFS= read -r repo_name; do
 done <"$REPOSITORY_LIST"
 
 echo "" >>README.md
-echo "For full list of repositories, click [**here**](https://github.com/tungbq?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
+echo "For full list of repositories, click [**here**](https://github.com/${GITHUB_OWNER}?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
