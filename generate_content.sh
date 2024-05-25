@@ -36,7 +36,6 @@ generate_repo_table() {
     local repo_name="$2"
     local description="$3"
 
-
     # Only get base repo name, execlude the username
     repo_base_name=$(basename $repo_name)
 
@@ -46,22 +45,21 @@ generate_repo_table() {
     # At header in the first run
     if [[ "$index" == "1" ]]; then
         # Start HTML table
-        echo "<table>" >> README.md
-        echo "    <tr>" >> README.md
-        echo "        <th>Repo URL</th>" >> README.md
-        echo "        <th>Description</th>" >> README.md
-        echo "        <th>Stars</th>" >> README.md
-        echo "    </tr>" >> README.md
+        echo "<table>" >>README.md
+        echo "    <tr>" >>README.md
+        echo "        <th>Repo URL</th>" >>README.md
+        echo "        <th>Stars</th>" >>README.md
+        echo "        <th>Description</th>" >>README.md
+        echo "    </tr>" >>README.md
     fi
 
-    echo "    <tr>" >> README.md
-    echo "        <th>$repo_hyperlink</th>" >> README.md
-    echo "        <th>$description</th>" >> README.md
-    echo "        <th>$stars</th>" >> README.md
-    echo "    </tr>" >> README.md
+    echo "    <tr>" >>README.md
+    echo "        <th>$repo_hyperlink</th>" >>README.md
+    echo "        <th>$stars</th>" >>README.md
+    echo "        <th>$description</th>" >>README.md
+    echo "    </tr>" >>README.md
 
 }
-
 
 # Start README file with header
 echo "<h1 align=\"center\">Repositories Landscape 💎</h1>" >README.md
@@ -100,7 +98,7 @@ done <"$REPOSITORY_LIST"
 ## Table closing
 if [[ "$MODE" == "table" ]]; then
     # End HTML table
-    echo "</table>" >> README.md
+    echo "</table>" >>README.md
 fi
 
 echo "" >>README.md
