@@ -44,20 +44,12 @@ generate_repo_table() {
 
     # At header in the first run
     if [[ "$index" == "1" ]]; then
-        # Start HTML table
-        echo "<table>" >>README.md
-        echo "    <tr>" >>README.md
-        echo "        <th>Repo URL</th>" >>README.md
-        echo "        <th>Stars</th>" >>README.md
-        echo "        <th>Description</th>" >>README.md
-        echo "    </tr>" >>README.md
+        echo "" >> README.md
+        echo "| ID  | URL          | Description                                            | Stars  |" >> README.md
+        echo "| :-- | :--------------- | :--------------------------------------------- | :------ |" >> README.md
     fi
 
-    echo "    <tr>" >>README.md
-    echo "        <th>$repo_hyperlink</th>" >>README.md
-    echo "        <th>$stars</th>" >>README.md
-    echo "        <th>$description</th>" >>README.md
-    echo "    </tr>" >>README.md
+    echo "| $index | $repo_hyperlink | $description | $stars |" >> README.md
 
 }
 
