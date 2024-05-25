@@ -96,7 +96,18 @@ tungbq/aws-lab-with-terraform
 tungbq/awesome-workflow
 ```
 
-### 4. Trigger the CI pipeline
+### 4. Configure the content mode
+
+- NOTE: This step is OPTIONAL, by default we will generate content in `table` format. Skip this step to use the default mode
+- If you want to use th list format, udpate the `content_mode` variable in workflow file `.github/workflows/generate_content.yaml` to `list`:
+  ```yaml
+  # File: .github/workflows/generate_content.yaml
+  env:
+    # Current supported mode: 'table' and 'list'
+    content_mode: 'table'
+  ```
+
+### 5. Trigger the CI pipeline
 
 #### Automatically trigger on merge event to main
 
@@ -117,7 +128,7 @@ tungbq/awesome-workflow
 
   ![action-run](./assets/action-run.png)
 
-### 5. Review and merge the PR
+### 6. Review and merge the PR
 
 Once the PR is raised automatically, you just need to review and merge, and that's it! You will have your own landscape content in README.md.
 
