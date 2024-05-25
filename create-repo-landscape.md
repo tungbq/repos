@@ -96,7 +96,7 @@ tungbq/aws-lab-with-terraform
 tungbq/awesome-workflow
 ```
 
-### 4. Configure the content mode`
+### 4. Configure the content mode
 
 - NOTE: This step is OPTIONAL, by default we will generate content in `table` format. Skip this step to use the default mode
 - If you want to use th list format, udpate the `content_mode` variable in workflow file `.github/workflows/generate_content.yaml` to `list`:
