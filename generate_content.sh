@@ -39,7 +39,7 @@ generate_repo_table() {
     # Only get base repo name, execlude the username
     repo_base_name=$(basename $repo_name)
 
-    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
+    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_base_name</a>"
     local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=flat\"/></a>"
 
     # At header in the first run
