@@ -57,7 +57,7 @@ generate_repo_table() {
     echo "    <tr>" >> README.md
     echo "        <td>$repo_hyperlink</td>" >> README.md
     echo "        <td>$description</td>" >> README.md
-    echo "        <td>$stars</td>" >> README.md
+    echo "        <th>$stars</th>" >> README.md
     echo "    </tr>" >> README.md
 
 }
