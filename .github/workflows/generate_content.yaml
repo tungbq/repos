@@ -1,4 +1,7 @@
 name: Update Content
+env:
+  # Current supported mode: 'table' and 'list'
+  content_mode: "table"
 
 on:
   ## Trigger on merge event to main brnach
@@ -25,7 +28,8 @@ jobs:
       - name: Generate content
         run: |
           echo "Repo owner: ${{ github.repository_owner }}"
-          ./generate_content.sh repository_list.txt ${{ github.repository_owner }}
+          echo "Content mode: ${{ env.content_mode }}"
+          ./generate_content.sh repository_list.txt ${{ env.content_mode }} ${{ github.repository_owner }}
 
       - name: Create Pull Request
         id: cpr
