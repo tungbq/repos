@@ -39,26 +39,17 @@ generate_repo_table() {
     # Only get base repo name, execlude the username
     repo_base_name=$(basename $repo_name)
 
-    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
-    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=social\"/></a>"
+    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_base_name</a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=flat\"/></a>"
 
     # At header in the first run
     if [[ "$index" == "1" ]]; then
-        # Start HTML table
-        echo "<table>" >>README.md
-        echo "    <tr>" >>README.md
-        echo "        <th>Repo URL</th>" >>README.md
-        echo "        <th>Stars</th>" >>README.md
-        echo "        <th>Description</th>" >>README.md
-        echo "    </tr>" >>README.md
+        echo "" >> README.md
+        echo "| ID  | URL          | Description                                            | Stars  |" >> README.md
+        echo "| :-- | :--------------- | :--------------------------------------------- | :------ |" >> README.md
     fi
 
-    echo "    <tr>" >>README.md
-    echo "        <th>$repo_hyperlink</th>" >>README.md
-    echo "        <th>$stars</th>" >>README.md
-    echo "        <th>$description</th>" >>README.md
-    echo "    </tr>" >>README.md
-
+    echo "| $index | $repo_hyperlink | $description | $stars |" >> README.md
 }
 
 # Start README file with header
@@ -94,12 +85,6 @@ while IFS= read -r repo_name; do
     # Increment index
     ((index++))
 done <"$REPOSITORY_LIST"
-
-## Table closing
-if [[ "$MODE" == "table" ]]; then
-    # End HTML table
-    echo "</table>" >>README.md
-fi
 
 echo "" >>README.md
 echo "For full list of repositories, click [**here**](https://github.com/${GITHUB_OWNER}?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
