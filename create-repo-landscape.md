@@ -99,7 +99,7 @@ tungbq/awesome-workflow
 ### 4. Configure the content mode
 
 - NOTE: This step is OPTIONAL, by default we will generate content in `table` format. Skip this step to use the default mode
-- If you want to use th list format, udpate the `content_mode` variable in workflow file `.github/workflows/generate_content.yaml` to `list`:
+- If you want to use the list format, udpate the `content_mode` variable in workflow file `.github/workflows/generate_content.yaml` to `list`:
   ```yaml
   # File: .github/workflows/generate_content.yaml
   env:
