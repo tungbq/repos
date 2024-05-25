@@ -40,7 +40,7 @@ generate_repo_table() {
     repo_base_name=$(basename $repo_name)
 
     local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
-    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=social\"/></a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=flat\"/></a>"
 
     # At header in the first run
     if [[ "$index" == "1" ]]; then
@@ -50,7 +50,6 @@ generate_repo_table() {
     fi
 
     echo "| $index | $repo_hyperlink | $description | $stars |" >> README.md
-
 }
 
 # Start README file with header
@@ -86,12 +85,6 @@ while IFS= read -r repo_name; do
     # Increment index
     ((index++))
 done <"$REPOSITORY_LIST"
-
-## Table closing
-if [[ "$MODE" == "table" ]]; then
-    # End HTML table
-    echo "</table>" >>README.md
-fi
 
 echo "" >>README.md
 echo "For full list of repositories, click [**here**](https://github.com/${GITHUB_OWNER}?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
