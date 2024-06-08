@@ -22,7 +22,7 @@ generate_repo_list() {
     repo_base_name=$(basename $repo_name)
 
     local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
-    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\"/></a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\" /></a>"
 
     echo "## $index. $repo_base_name" >>README.md
     echo "- URL: $repo_hyperlink" >>README.md
@@ -40,7 +40,7 @@ generate_repo_table() {
     repo_base_name=$(basename $repo_name)
 
     local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_base_name</a>"
-    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=flat\"/></a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name?style=flat\" height=\"25\"/></a>"
 
     # At header in the first run
     if [[ "$index" == "1" ]]; then
