@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY_LIST=$1
-MODE=${2:-table}
+MODE=${2:-simple_list}
 
 # User input, or will be automated detected via CI
 GITHUB_OWNER=$3
@@ -28,6 +28,22 @@ generate_repo_list() {
     echo "- URL: $repo_hyperlink" >>README.md
     echo "- Description: $description" >>README.md
     echo "- $stars" >>README.md
+}
+
+
+# Function to generate table rows
+generate_repo_simple_list() {
+    local index="$1"
+    local repo_name="$2"
+    local description="$3"
+
+    # Only get base repo name, execlude the username
+    repo_base_name=$(basename $repo_name)
+
+    local repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
+    local stars="<a href=\"https://github.com/$repo_name/stargazers\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/$repo_name\" /></a>"
+
+    echo "- $repo_hyperlink - $description: $stars" >>README.md
 }
 
 # Function to generate table rows
@@ -77,6 +93,8 @@ while IFS= read -r repo_name; do
     if [[ "$MODE" == "table" ]]; then
         # Generate table row with incremental index
         generate_repo_table "$index" "$repo_name" "$description"
+    elif [[ "$MODE" == "simple_list" ]]; then
+        generate_repo_simple_list "$index" "$repo_name" "$description"
     else
         # Generate list with incremental index
         generate_repo_list "$index" "$repo_name" "$description"
