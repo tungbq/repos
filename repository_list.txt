@@ -17,3 +17,4 @@ tungbq/python-game
 TheDevOpsHub/AzureHub
 TheDevOpsHub/container-labs
 TheDevOpsHub/TerraformHub
+tungbq/cmd
