@@ -18,3 +18,4 @@ TheDevOpsHub/AzureHub
 TheDevOpsHub/container-labs
 TheDevOpsHub/TerraformHub
 tungbq/cmd
+tungbq/devops-practice
